@@ -263,11 +263,13 @@ transition: all 0.3s ease;
 @media screen and (max-width:480px){
     .outline{
         /*  padding-top: 10%; */
-        font-size: 13.5vw;
-        margin-top: 14vh ;
+        font-size: 14.3vw;
+        margin-top: 15.3vh ;
+        -webkit-transform: scaleY(1.5);
+    transform: scaleY(1.5);
     }
     .main_heading{
-        padding-top:18vh;
+        padding-top:19.5vh;
         font-size: 9.5vw;
     }
     .section_us p{
